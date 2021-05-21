@@ -1,0 +1,78 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+/*Universal Rules*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0 solid red;
+}
+html {
+  text-align: center;
+  background-color: #EAE7DC;
+  font-family: 'Montserrat';
+}
+
+/*General Rules*/
+#title {
+  font-family: 'Pattaya';
+  font-size: 3rem;
+  background-color: #D8C3A5;
+  margin-top: 1rem;
+}
+.section-title {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.text {
+  font-size: 1rem;
+}
+.break {
+  border-bottom: 0.25rem solid #D8C3A5;
+  margin: 3rem auto;
+  max-width: 28rem;
+}
+
+/*About Us*/
+#about-us {
+  margin: 0 auto;
+  max-width: 25rem;
+}
+/*Locations*/
+#locations {
+  margin: 0 auto;
+  max-width: 25rem;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.location {
+  border: 0px solid red;
+  padding: .5rem 0;
+  margin-left: .5rem;
+}
+.location p {
+  margin-left: .5rem;
+}
+
+/*Order*/
+
+
+/*Footer*/
+#footer {
+  background-color: #D8C3A5;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0.6rem 3rem;
+}
+.footer-left {
+  text-align: left;
+  grid-column: 1;
+}
+.footer-right {
+  text-align: right;
+  grid-column: 3;
+}

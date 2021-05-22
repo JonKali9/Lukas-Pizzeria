@@ -34,6 +34,20 @@ export default class Locations extends Component {
                         <p className='text'>Street: Via Katto</p>
                         <p className='text'>House Number: 8</p>
                     </div>
+                    <div className='location'>
+                        <h3 className='text'>Pizzeria420</h3>
+                        <p className='text'>Country: Italy</p>
+                        <p className='text'>City: Trieste</p>
+                        <p className='text'>Street: Via Motana</p>
+                        <p className='text'>House Number: 2</p>
+                    </div>
+                    <div className='location'>
+                        <h3 className='text'>Roberto</h3>
+                        <p className='text'>Country: Siciliy</p>
+                        <p className='text'>City: Udine</p>
+                        <p className='text'>Street: Via Cordegnone</p>
+                        <p className='text'>House Number: 11</p>
+                    </div>
                 </div>
             </div>
         )

@@ -10,26 +10,30 @@
 }
 html {
   text-align: center;
-  background-color: #eae7dc;
+  background-color: #141414;
   font-family: "Montserrat";
   height: 100vh;
 }
 
 /*General Rules*/
 #title {
+  color: #f4ead9;
   font-family: "Pattaya";
   font-size: 3rem;
-  background-color: #d8c3a5;
+  background-color: #544227;
+  margin-top: 2rem;
 }
 .section-title {
   margin-top: 5rem;
   margin-bottom: 2rem;
   font-size: 2rem;
   text-decoration: underline;
+  color: #f4ead9;
 }
 .text,
 label {
   font-size: 1.1rem;
+  color: #f2e8d7;
 }
 .break {
   border-bottom: 0.25rem solid #d8c3a5;
@@ -40,7 +44,6 @@ label {
 /*Modes*/
 #modes {
   display: grid;
-  height: 3rem;
   grid-template-columns: 1fr 4fr 1fr;
   text-align: center;
 }
@@ -53,14 +56,14 @@ label {
   grid-column: 1;
   min-width: 12rem;
   max-width: 15rem;
-  background-color: #eae7dc;
+  background-color: #d1b387;
   border: 0.2rem solid #bc986a;
   color: #856f53;
 }
 #light:hover {
   cursor: pointer;
-  background-color: #bc986a;
-  border: 0.2rem solid #bc986a;
+  background-color: #6e5b3d;
+  border: 0.2rem solid #7a6545;
   color: white;
 }
 #dark {
@@ -72,13 +75,13 @@ label {
   grid-column: 3;
   min-width: 12rem;
   max-width: 15rem;
-  background-color: #bc986a;
-  border: 0.2rem solid #bc986a;
+  background-color: #6e5b3d;
+  border: 0.2rem solid #7a6545;
   color: white;
 }
 #dark:hover {
   cursor: pointer;
-  background-color: #eae7dc;
+  background-color: #d1b387;
   border: 0.2rem solid #bc986a;
   color: #856f53;
 }
@@ -110,9 +113,9 @@ label {
 #order {
   margin: 2rem auto;
   padding: 2rem;
-  border: 0.3rem solid #bc986a;
+  border: 0.3rem solid #6e5536;
   border-radius: 0.5rem;
-  background-color: #daad86;
+  background-color: #674525;
   max-width: 37rem;
   text-align: left;
   display: grid;
@@ -145,7 +148,7 @@ label {
   border-radius: 0.5rem;
   padding: 0.25rem 0.5rem;
   margin-top: 0.6rem;
-  background-color: #bc986a;
+  background-color: #775d3a;
   color: white;
 }
 #order #ingredients {
@@ -169,7 +172,7 @@ label {
   padding: 1rem;
   border-radius: 0.3rem;
   margin-left: 1.2rem;
-  background-color: #bc986a;
+  background-color: #775d3a;
   border: 0.2rem solid #bc986a;
   color: white;
 }
@@ -180,71 +183,12 @@ label {
   color: #856f53;
 }
 
-/*Your Orders*/
-.order {
-  border: ;
-  width: 20rem;
-  margin: 3rem auto;
-  padding: 2rem 3rem;
-  text-align: left;
-  border: 0.3rem solid #dbc19d;
-  border-radius: 0.8rem;
-  box-shadow: 0.7rem 0.4rem 1rem #bc986a;
-}
-.order h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
-}
-.order p,
-ul {
-  margin-left: 0.7rem;
-}
-.order li {
-  margin-left: 1.5rem;
-}
-.order #buttons {
-  text-align: right;
-  margin-top: 1rem;
-}
-.order button {
-  width: 10rem;
-  font-family: "Montserrat";
-  font-size: 1rem;
-  border-radius: 0.3rem;
-  padding: 0.5rem 0.3rem;
-  color: white;
-  margin-top: 0.3rem;
-}
-#delivered-btn {
-  background-color: #8d8741;
-  border: 0.2rem solid #8d8741;
-  color: #eae7dc;
-}
-#delivered-btn:hover {
-  cursor: pointer;
-  background-color: #eae7dc;
-  border: 0.2rem solid #8d8741;
-  color: #58552c;
-}
-#reject-btn {
-  background-color: #bc986a;
-  border: 0.2rem solid #bc986a;
-  color: #eae7dc;
-}
-#reject-btn:hover {
-  cursor: pointer;
-  background-color: #eae7dc;
-  border: 0.2rem solid #bc986a;
-  color: #856f53;
-}
-
 /*Footer*/
 #footer {
-  background-color: #d8c3a5;
+  background-color: #544227;
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 0.6rem 3rem;
-  margin-top: 6rem;
 }
 .footer-left {
   text-align: left;

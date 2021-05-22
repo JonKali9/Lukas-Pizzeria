@@ -21,7 +21,7 @@ export default class MyOrders extends Component {
             } else if (order.status === 'Deliviered') {
                 buttons = (
                    <>
-                        <button onClick={() => this.props.deleteOrder(order.id)} id='reject-btn'>Delete Order</button> <br />
+                    <button onClick={this.props.deleteOrder} id='reject-btn'>Delete Order</button> <br />
                    </>
                )
             } else if (order.status === 'Rejected') {
@@ -51,7 +51,7 @@ export default class MyOrders extends Component {
         })
         return (
             <div>
-            <h2 className='section-title'>Your Orders</h2>
+            <h2 className='section-title'>Orders (Admin)</h2>
                 {orders}
             </div>
         )
